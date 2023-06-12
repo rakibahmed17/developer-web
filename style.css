@@ -1,19 +1,23 @@
 body{
   font-family: 'Mukta', sans-serif;
-         
+         margin: 0%;
 }
 .boy{
   color: darkred;
  
 }
-section{
+.container{
   display: flex;
+  padding-bottom:200px ; 
+  padding-right: 10px;
+  
 }
 .first{
     width: 50%;
+    margin-right: 10px;
 }
 .first img{
-width: 90%;
+width: 70%;
 }
 
 .hire-button{
@@ -24,3 +28,41 @@ width: 90%;
  background-image: linear-gradient(blue,skyblue);
 
 }
+.developer{
+                  color: red;
+} .back-image{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+}
+.second{
+            background-image: url(images/dream-bg.png);   
+            background-repeat: no-repeat;   
+                  
+}
+.footer{
+                  text-align: center;
+                  font-weight: 900;color: brown;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+                  }
+.new{
+                  box-shadow: 10px 10px 40px;
+                  width: 40%;
+                  margin: 10px;
+                  padding-left: 20px ;padding-right: 10px;
+                  text-align: justify;
+                  
+}
+.b-image{
+                  background-image: url(images/exp-bg.png);
+                  background-repeat: no-repeat;
+
+                  }
+
+                  #tex2{
+                  border-left: 7px solid blue;
+                  }
+                  #tex1{
+         border-left: 7px solid tomato;
+                  }
